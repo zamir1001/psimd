@@ -1,13 +1,13 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8.12 FATAL_ERROR)
 
-PROJECT(vectorclass1-download NONE)
+PROJECT(version1-download NONE)
 
 INCLUDE(ExternalProject)
-ExternalProject_Add(vectorclass1
+ExternalProject_Add(vectorclass
 	GIT_REPOSITORY https://github.com/zamir1001/version1.git
 	GIT_TAG main
-	SOURCE_DIR "${CONFU_DEPENDENCIES_SOURCE_DIR}/vectorclass1"
-	BINARY_DIR "${CONFU_DEPENDENCIES_BINARY_DIR}/vectorclass1"
+	SOURCE_DIR "${CONFU_DEPENDENCIES_SOURCE_DIR}/version1"
+	BINARY_DIR "${CONFU_DEPENDENCIES_BINARY_DIR}/version1"
 	CONFIGURE_COMMAND ""
 	BUILD_COMMAND ""
 	INSTALL_COMMAND ""
